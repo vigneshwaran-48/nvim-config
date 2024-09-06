@@ -1,3 +1,12 @@
+
+vim.opt.relativenumber = true
+
+vim.opt.clipboard = "unnamedplus"
+
+vim.opt.scrolloff = 999
+
+vim.opt.wrap = false
+
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
   local lazyrepo = "https://github.com/folke/lazy.nvim.git"
